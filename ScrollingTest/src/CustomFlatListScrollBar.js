@@ -116,7 +116,7 @@ export default class CustomFlatListScrollBar extends React.PureComponent {
 
     const difference = this.state.visibleHeight > indicatorSize ? this.state.visibleHeight - indicatorSize : 1
     return (
-      <View style={{ flex: 1, backfaceVisibility: 'pink' }}>
+      <View style={{ backfaceVisibility: 'pink', height: 500 }}>
         <FlatList
           data={DATA}
           persistentScrollbar={false}
